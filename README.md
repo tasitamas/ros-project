@@ -8,6 +8,7 @@ This is a ros2 turtlesim project which draws the Koch curve or the Koch snowflak
 - [Optional installation](#optional-installation)
 - [Clone the project](#clone-the-project)
 - [Usage](#usage)
+- [More information](#more-information)
 - [Sources](#sources)
 
 ## Required installation
@@ -60,8 +61,12 @@ ros2 run ~/your/ros2/workspace/src turtlesim_controller
 ros2 run turtlesim turtlesim_node
 ```
 
+## More information
+**The project has logging which logs the information about the movement and the success of the drawing.<br> You can check the .log file in the same folder where you cloned the project.**
+
 ## Sources
 - [Turtlesim Tutorial](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html)
 - [Koch curve](https://en.wikipedia.org/wiki/Koch_snowflake)
+- [Logging](https://docs.python.org/3/library/logging.html)
 
 
